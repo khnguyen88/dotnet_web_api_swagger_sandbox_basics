@@ -12,4 +12,6 @@ Dabbling with dot net to create a functional web api interface with swagger
 - [Medium - Advanced Design Patterns in C#: Command Query Responsibility Segregation (CQRS)](https://krishan-samarawickrama.medium.com/advanced-design-patterns-in-c-command-query-responsibility-segregation-cqrs-d9ff598ccdf6)
 - [Dev.to - Mastering CQRS Design Pattern with MediaTr in C .NET](https://dev.to/dianaiminza/mastering-cqrs-design-pattern-with-mediatr-in-c-net-khk)
 - [OAuth Google Sign-In Setup - Youtube](https://www.youtube.com/watch?v=TjMhPr59qn4)
-- [[OAuth Google Sign-In Setup - GitHub](https://github.com/divanov11/apple-signin/tree/google-signin)
+- [OAuth Google Sign-In Setup - GitHub](https://github.com/divanov11/apple-signin/tree/google-signin)
+- [Microsoft - Tutorial: Host a RESTful API with CORS in Azure App Service](https://learn.microsoft.com/en-us/azure/app-service/app-service-web-tutorial-rest-api)
+- [Google - Quickstart: Build and deploy a .NET web app to Cloud Run](https://cloud.google.com/run/docs/quickstarts/build-and-deploy/deploy-dotnet-service)
