@@ -1,0 +1,18 @@
+﻿@WebAppSandbox01_HostAddress = https://localhost:7154
+
+GET {{WebAppSandbox01_HostAddress}}/weatherforecast
+
+###
+
+POST {{WebAppSandbox01_HostAddress}}/api/todoitems
+Content-Type: application/json
+{
+  "name": "walk dog",
+  "isComplete": true
+}
+
+###
+
+GET {{WebAppSandbox01_HostAddress}}/api/todoitems
+
+###

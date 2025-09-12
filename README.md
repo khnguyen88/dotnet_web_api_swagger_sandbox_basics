@@ -20,3 +20,8 @@ Dabbling with dot net to create a functional web api interface with swagger
 -   [Google Authentication in ASP.NET Core with React (.NET 9) ](https://www.youtube.com/watch?v=SH-ABnaKSIM)
 -   [AspNetCore WebAPI - Google Authenticatio](https://dvoituron.com/2019/08/09/webapi-google-auth/)
 -   [External OAuth authentication providers](https://learn.microsoft.com/en-us/aspnet/core/security/authentication/social/google-logins?view=aspnetcore-9.0)
+-   [Entity Framework Tutorial](https://www.entityframeworktutorial.net/)
+-   [Microsoft Tutorial - Getting Started with EF Core](https://learn.microsoft.com/en-us/ef/core/get-started/overview/first-app?tabs=netcore-cli)
+-   [Tutorials Point - Entity Framework](https://www.tutorialspoint.com/entity_framework/index.htm)
+-   [Medium - Step-by-Step Guide to Entity Framework in .NET](https://medium.com/@lucas.and227/step-by-step-guide-to-entity-framework-in-net-c629faf9f322)
+-   [StackOverFlow - EntityFramework Core auto generate key id property](https://stackoverflow.com/questions/43899190/entityframework-core-auto-generate-key-id-property)
