@@ -39,8 +39,9 @@ Dabbling with dot net to create a functional web api interface with swagger
 
 ## Cloud Applications - Google Cloud Platform
 
--   [GCP - How to SSH to Virtual Machine (VM) Linux on Google Cloud Platform](https://www.youtube.com/watch?v=dZ1LhEgoC_8)
--   [How to connect to Google Cloud Virtual Machine using SSH from Terminal](https://www.youtube.com/watch?v=hP9B3xXP1Ts)
+-   [Youtube - GCP - How to SSH to Virtual Machine (VM) Linux on Google Cloud Platform](https://www.youtube.com/watch?v=dZ1LhEgoC_8)
+-   [Youtube - How to connect to Google Cloud Virtual Machine using SSH from Terminal](https://www.youtube.com/watch?v=hP9B3xXP1Ts)
+-   [Google Cloud - Google Cloud Run - Quickstart: Build and deploy a .NET web app to Cloud Run](https://cloud.google.com/run/docs/quickstarts/build-and-deploy/deploy-dotnet-service)
 
 ## Database
 
