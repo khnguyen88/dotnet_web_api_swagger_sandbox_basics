@@ -1,9 +1,22 @@
 using Microsoft.EntityFrameworkCore;
 using WebAppSandbox01.Models;
 
+var MyAllowSpecificOrigins = "_MyAllowSubdomainPolicy";
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+
+builder.Services.AddCors(options => {
+    options.AddPolicy(name: MyAllowSpecificOrigins,
+        policy =>
+        {
+            policy.WithOrigins("*")
+            .SetIsOriginAllowedToAllowWildcardSubdomains()
+            .AllowCredentials();
+        }
+    );
+});
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
