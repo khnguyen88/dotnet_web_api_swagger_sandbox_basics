@@ -1,5 +1,8 @@
 using Microsoft.EntityFrameworkCore;
 using WebAppSandbox01.Models;
+using MediatR;
+using WebAppSandbox01.Services;
+using WebAppSandbox01.Repos;
 
 var MyAllowSpecificOrigins = "_MyAllowSubdomainPolicy";
 
@@ -23,6 +26,9 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<TodoContext>(opt => opt.UseInMemoryDatabase("ToDoList"));
+builder.Services.AddMediatR(config => config.RegisterServicesFromAssembly(typeof(Program).Assembly));
+builder.Services.AddSingleton<WeatherStationRepo>();
+builder.Services.AddSingleton<WeatherStationService>();
 
 var app = builder.Build();
 

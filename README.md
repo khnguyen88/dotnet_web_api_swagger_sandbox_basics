@@ -12,8 +12,21 @@ Dabbling with dot net to create a functional web api interface with swagger
 -   [Microsoft - Enable cross-origin requests in ASP.NET Web API 2](https://learn.microsoft.com/en-us/aspnet/web-api/overview/security/enabling-cross-origin-requests-in-web-api)
 -   [Stackoverflow - How to Enable CORS in ASP.NET Core Web API](https://stackoverflow.com/questions/44379560/how-to-enable-cors-in-asp-net-core-webapi)
 -   [C-Sharp Corner - Using CQRS Pattern in C-Sharp](https://www.c-sharpcorner.com/article/using-the-cqrs-pattern-in-c-sharp/)
+-   [Milan Jovanovic - CQRS Pattern With MediatR](https://www.milanjovanovic.tech/blog/cqrs-pattern-with-mediatr)
+-   [Code Maze - CQRS and MediatR in ASP.NET Core](https://code-maze.com/cqrs-mediatr-in-aspnet-core/)
+-   [Code Maze - Dependency Injection in ASP.NET Core](https://code-maze.com/dependency-injection-aspnet/)
+-   [Code Maze - ASP.NET Core Series](https://code-maze.com/net-core-series/)
+-   [Code Maze - ASP.NET Core Web API – Part 1 of 16 - Creating MySQL Database](https://code-maze.com/net-core-web-development-part1/)
+-   [Code Maze - ASP.NET Core Web API – Part 2 of 16 - .NET Service Configuration](https://code-maze.com/net-core-web-development-part2/)
+-   [Code Maze - ASP.NET Core Web API – Part 3 of 16 - Logging With NLog](https://code-maze.com/net-core-web-development-part3/)
+-   [Code Maze - ASP.NET Core Web API – Part 4 of 16 - Repository Pattern](https://code-maze.com/net-core-web-development-part4/)
+-   [Code Maze - ASP.NET Core Web API – Part 5 of 16 - How to Handle Get Request](https://code-maze.com/net-core-web-development-part5/)
+-   [Code Maze - ASP.NET Core Web API – Part 5 of 16 - Post, Put, Delete](https://code-maze.com/net-core-web-development-part6/)
+-   [Code Maze - ASP.NET Core Web API – Part 16 of 16 - IIS Deployment](https://code-maze.com/net-core-web-development-part16/)
+-   [Deploy the ASP.NET Core Web App to Linux](https://code-maze.com/deploy-aspnetcore-linux-nginx/)
 -   [Github Forums - CORS does not function on swagger.json endpoint](https://github.com/domaindrivendev/Swashbuckle.AspNetCore/issues/2641)
 -   [Medium - Advanced Design Patterns in C#: Command Query Responsibility Segregation (CQRS)](https://krishan-samarawickrama.medium.com/advanced-design-patterns-in-c-command-query-responsibility-segregation-cqrs-d9ff598ccdf6)
+-   [Microsoft - CQRS Pattern](https://learn.microsoft.com/en-us/azure/architecture/patterns/cqrs)
 -   [Dev.to - Mastering CQRS Design Pattern with MediaTr in C .NET](https://dev.to/dianaiminza/mastering-cqrs-design-pattern-with-mediatr-in-c-net-khk)
 -   [OAuth Google Sign-In Setup - Youtube](https://www.youtube.com/watch?v=TjMhPr59qn4)
 -   [OAuth Google Sign-In Setup - GitHub](https://github.com/divanov11/apple-signin/tree/google-signin)
@@ -29,6 +42,8 @@ Dabbling with dot net to create a functional web api interface with swagger
 -   [StackOverFlow - EntityFramework Core auto generate key id property](https://stackoverflow.com/questions/43899190/entityframework-core-auto-generate-key-id-property)
 -   [Running A Worker Service As A Windows Service](https://medium.com/@adebanjoemmanuel01/running-a-worker-service-as-a-windows-service-c1d12a28a73c)
 -   [Create a .NET Web API with Entity Framework](https://www.youtube.com/watch?v=A7nV0xF5vYg)
+
+-   [Can someone explain when to use Singleton, Scoped and Transient with some real life examples?](https://www.reddit.com/r/csharp/comments/1acwtar/can_someone_explain_when_to_use_singleton_scoped/)
 
 ## Others:
 
