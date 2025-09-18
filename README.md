@@ -14,6 +14,7 @@ Dabbling with dot net to create a functional web api interface with swagger
 -   [C-Sharp Corner - Using CQRS Pattern in C-Sharp](https://www.c-sharpcorner.com/article/using-the-cqrs-pattern-in-c-sharp/)
 -   [Milan Jovanovic - CQRS Pattern With MediatR](https://www.milanjovanovic.tech/blog/cqrs-pattern-with-mediatr)
 -   [Code Maze - CQRS and MediatR in ASP.NET Core](https://code-maze.com/cqrs-mediatr-in-aspnet-core/)
+-   [CQRS Validation Pipeline with MediatR and FluentValidation](https://code-maze.com/cqrs-mediatr-fluentvalidation/)
 -   [Code Maze - Dependency Injection in ASP.NET Core](https://code-maze.com/dependency-injection-aspnet/)
 -   [Code Maze - ASP.NET Core Series](https://code-maze.com/net-core-series/)
 -   [Code Maze - ASP.NET Core Web API – Part 1 of 16 - Creating MySQL Database](https://code-maze.com/net-core-web-development-part1/)

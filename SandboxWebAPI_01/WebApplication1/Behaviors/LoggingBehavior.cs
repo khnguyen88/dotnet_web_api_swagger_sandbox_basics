@@ -25,7 +25,8 @@ namespace WebAppSandbox01.Behaviors
             var response = await next();
 
             _logger.LogInformation(
-                $"Response: {typeof(TResponse).Name}.\n" +
+                $"Response for {typeof(TRequest).Name}: {typeof(TResponse).Name}.\n" 
+                $"Response Type: {typeof(TResponse).Name}.\n" +
                 $"Response Data: {JsonSerializer.Serialize<TResponse>(response)}"
             );
             return response;
