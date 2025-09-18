@@ -1,11 +1,12 @@
 ﻿using MediatR;
+using WebAppSandbox01.Commands;
 using WebAppSandbox01.Domain;
 using WebAppSandbox01.Dtos;
 using WebAppSandbox01.Mapper;
 using WebAppSandbox01.Models;
 using WebAppSandbox01.Services;
 
-namespace WebAppSandbox01.Commands
+namespace WebAppSandbox01.CommandHandlers
 {
     public class AddWeatherForcastHandler: IRequestHandler<AddWeatherForcastCommand>
     {

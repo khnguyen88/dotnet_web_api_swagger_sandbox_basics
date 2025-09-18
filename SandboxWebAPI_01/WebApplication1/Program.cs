@@ -3,6 +3,7 @@ using WebAppSandbox01.Models;
 using MediatR;
 using WebAppSandbox01.Services;
 using WebAppSandbox01.Repos;
+using WebAppSandbox01.Behaviors;
 
 var MyAllowSpecificOrigins = "_MyAllowSubdomainPolicy";
 
@@ -29,6 +30,7 @@ builder.Services.AddDbContext<TodoContext>(opt => opt.UseInMemoryDatabase("ToDoL
 builder.Services.AddMediatR(config => config.RegisterServicesFromAssembly(typeof(Program).Assembly));
 builder.Services.AddSingleton<WeatherStationRepo>();
 builder.Services.AddSingleton<WeatherStationService>();
+builder.Services.AddSingleton(typeof(IPipelineBehavior<,>), typeof(LoggingBehavior<,>));
 
 var app = builder.Build();
 

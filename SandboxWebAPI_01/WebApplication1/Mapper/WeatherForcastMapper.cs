@@ -10,8 +10,8 @@ namespace WebAppSandbox01.Mapper
     {
         public static WeatherForcast DtoToDomain(WeatherForcastDto dto)
         {
-            return new()
-            {
+            return new() { 
+                Id = dto.Id,
                 Date = dto.Date,
                 TemperatureC = dto.TemperatureC,
                 Summary = dto.Summary,
@@ -22,6 +22,7 @@ namespace WebAppSandbox01.Mapper
         public static WeatherForecastModel DomainToModel(WeatherForcast domain)
         {
             return new() { 
+                Id = domain.Id,
                 Date = domain.Date,
                 TemperatureC = domain.TemperatureC,
                 Summary = domain.Summary,
@@ -33,6 +34,7 @@ namespace WebAppSandbox01.Mapper
         {
             return new()
             {
+                Id = model.Id,
                 Date = model.Date,
                 TemperatureC = model.TemperatureC,
                 Summary = model.Summary,
@@ -44,6 +46,7 @@ namespace WebAppSandbox01.Mapper
         {
             return new()
             {
+                Id = domain.Id,
                 Date = domain.Date,
                 TemperatureC = domain.TemperatureC,
                 Summary = domain.Summary,

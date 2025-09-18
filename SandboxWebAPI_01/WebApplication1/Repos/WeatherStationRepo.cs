@@ -16,6 +16,7 @@ namespace WebAppSandbox01.Repos
         {
             _weatherForcasts = Enumerable.Range(1, 5).Select(index => new WeatherForecastModel
             {
+                Id = index,
                 Date = DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
                 TemperatureC = Random.Shared.Next(-20, 55),
                 Summary = Summaries[Random.Shared.Next(Summaries.Length)],
@@ -26,6 +27,8 @@ namespace WebAppSandbox01.Repos
 
         public async Task AddWeatherForcast(WeatherForecastModel weatherForcast)
         {
+            var nextId = _weatherForcasts.Count + 1;
+            weatherForcast.Id = nextId;
             _weatherForcasts.Add(weatherForcast);
             await Task.CompletedTask;
         }
@@ -33,6 +36,11 @@ namespace WebAppSandbox01.Repos
         public async Task<IEnumerable<WeatherForecastModel>> GetAllWeatherForcasts()
         {
             return await Task.FromResult(_weatherForcasts);
+        }
+
+        public async Task<WeatherForecastModel> GetWeatherForcastById(int id)
+        {
+            return await Task.FromResult(_weatherForcasts.Single(m => m.Id == id));
         }
     }
 }

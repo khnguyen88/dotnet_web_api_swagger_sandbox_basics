@@ -9,6 +9,8 @@ namespace WebAppSandbox01.Commands
 
     public record AddWeatherForcastCommand2 : IRequest
     {
+        public int Id { get; set; }
+
         public DateOnly Date { get; set; }
 
         public int TemperatureC { get; set; }

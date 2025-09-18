@@ -29,6 +29,14 @@ namespace WebApplication1.Controllers
             return Ok(weatherForcasts);
         }
 
+        [HttpGet("{id:int}",Name = "GetWeatherForecastById")]
+        public async Task<ActionResult> GetWeatherForecastById(int id)
+        {
+            var weatherForcast = await _mediator.Send(new GetWeatherForcastByIdQuery(id));
+
+            return Ok(weatherForcast);
+        }
+
         [HttpPost(Name = "AddWeatherForecast")]
         public async Task<ActionResult> AddWeatherForecast([FromBody]WeatherForcastDto weatherForecast)
         {
@@ -38,7 +46,7 @@ namespace WebApplication1.Controllers
              
         }
 
-        [HttpPost("AltCommand")]
+        [HttpPost("AltCommand", Name = "AddWeatherForecastAlt")]
         public async Task<ActionResult> AddWeatherForecast2([FromBody]WeatherForcastDto weatherForecast)
         {
             if (weatherForecast == null)

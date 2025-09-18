@@ -29,5 +29,13 @@ namespace WebAppSandbox01.Services
             
             return domains.Select(d => WeatherForcastMapper.DomainToDto(d)).ToList();
         }
+
+        public async Task<WeatherForcastDto> GetWeatherForcastById(int id)
+        {
+            var model = _weatherStationRepo.GetWeatherForcastById(id).Result;
+            var domain = WeatherForcastMapper.ModelToDomain(model);
+
+            return WeatherForcastMapper.DomainToDto(domain);
+        }
     }
 }
